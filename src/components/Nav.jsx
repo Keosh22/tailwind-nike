@@ -25,7 +25,7 @@ const Nav = () => {
           </ul>
 
           {/* Buttons */}
-          <ul className="flex justify-center items-center gap-6 max-lg:hidden">
+          <ul className="flex justify-center items-center gap-6 wide:mr-24 max-lg:hidden">
             {navButtons.map((item) => (
               <li><a href={item.href} className="text-lg font-montserrat leading-normal hover:text-slate-gray transition ease-in-out duration-300">{item.label}</a></li>
             ))}
